@@ -106,7 +106,6 @@ function initializeTextBuffer(buffer) {
 																	.getGuidesColumns
 																	.bind(wrapGuide);
 						}
-						wrapGuide.updateGuide();
 					}
 
 					if (settings.end_of_line !== 'unset') {
